@@ -62,11 +62,15 @@ p {
 }
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(to right, #EC4F92,#EC4C79);
+    background: transparnet;
     padding: 10px 20px;
     border-radius: 5px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 700;
+}
+.link-button:hover {
+    background-image: linear-gradient(to right, #EC4F92,#EC4C79);
+    color: #ffffff;
 }
 .content {
     margin-left: 200px;
@@ -94,7 +98,9 @@ p {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 50px;
+      
 }
+
  .images {
     margin: 0 50px 0 50px;
 } 
@@ -117,7 +123,7 @@ p {
     width: 100%;
 }
 .client {
-    height: 756px;
+    height: 696px;
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -126,15 +132,19 @@ p {
     text-align: center;
     margin-top: 100px;
 }
+.color-highlight:hover {
+    color: #000000;
+}
 
 .center h2 {
     font-size: 28px;
     font-weight: 700;
-
+    margin-top: 100px;
 }
 .center h5 {
     font-size: 16px;
     font-weight: 700;
+    margin-top: 50px;
     
 }
 .center h6 {
@@ -145,20 +155,32 @@ p {
 .center p {
     font-size: 14px;
     font-weight: 600;
+    margin-top: 58px;
     line-height: 1.6;
-    
 }
 button {
-    padding: 2px 149px;
+    padding: 33px 93px;
     background-image: linear-gradient(to right, #EC4F92,#EC4C79);
     border: none;
+    border: 1px solid linear-gradient(to right, #EC4F92,#EC4C79); 
     border-radius: 5px;
     color: #ffffff;
-    margin-top: 211px;
+    margin-top: 83px;
+}
+button span {
+    color: #F9C9DA;
+    margin-bottom: 50px;
+}
+button a {
+    color: #ffffff;
 }
 .center a {
     text-decoration: none;
     font-weight: 700;
+}
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
 
 
