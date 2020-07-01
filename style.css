@@ -152,6 +152,9 @@ p {
     font-weight: 400;
     
 }
+.task h1:hover {
+    color: red;
+}
 .center p {
     font-size: 14px;
     font-weight: 600;
@@ -170,6 +173,9 @@ button {
 button span {
     color: #F9C9DA;
     margin-bottom: 50px;
+}
+button:hover {
+    box-shadow: 2px 2px   30px #9e2e51e3;
 }
 button a {
     color: #ffffff;
