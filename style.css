@@ -1,0 +1,22 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 40px;
+    
+}
+.color-highlight {
+    color: #EC4C7A;
+    letter-spacing: 1.5px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+
