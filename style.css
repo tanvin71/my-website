@@ -101,7 +101,7 @@ p {
       
 }
 
- .images {
+.images {
     margin: 0 50px 0 50px;
 } 
 .image1 {
@@ -119,8 +119,14 @@ p {
     float: right;
     margin-left: 30px;
 }
+.bio h1:hover {
+    color: red;
+}
 .images img {
     width: 100%;
+}
+.images:hover img {
+    box-shadow: 1px 1px 10px white;
 }
 .client {
     height: 696px;
@@ -175,7 +181,7 @@ button span {
     margin-bottom: 50px;
 }
 button:hover {
-    box-shadow: 2px 2px   30px #9e2e51e3;
+    box-shadow: 2px 2px 20px #9e2e51e3;
 }
 button a {
     color: #ffffff;
@@ -186,7 +192,14 @@ button a {
 }
 footer p {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+}
+footer:hover {
+    background: dimgray;
+    height: 50px;
+    font-size: 16px;
+    color: #ffffff;
+    align-items: center;
 }
 
 
