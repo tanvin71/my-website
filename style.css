@@ -10,7 +10,7 @@ h1 {
     color: #EC4C7A;
     letter-spacing: 1.5px;
 }
-.top .half-width {
+.top-bannear .half-width {
     margin-top: 100px;
     width: 38%;
     float: left;
@@ -22,11 +22,11 @@ h1 {
     float: left;
     margin-left: 6%;
     padding-left: 2%;
-    margin-top: 200px;
+    margin-top: 90px;
 }
-.top.link-button {
+.top-banner.link-button {
     text-decoration: none;
-    background-image: linear-gradient(45deg, #EC4F92,#EC4C79);
+    background-image: linear-gradient(to right,#EC4F92 50%,#EC4C79 50%);
     padding: 10px 20px;
     border-radius: 5px;
     color: #ffffff;
@@ -42,14 +42,14 @@ h1 {
 .half-width img {
     width: 100%;
 }
-.middle {
-    height: 800px;
+.bio {
+    height: 650px;
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
-    background-position: contain;
+    background-size: contain;
 
 }
-.top {
+.top-banner {
     
     height: 750px;
     background-image: url("images/header-bg.png");
@@ -62,18 +62,103 @@ p {
 }
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(45deg, #EC4F92,#EC4C79);
+    background-image: linear-gradient(to right, #EC4F92,#EC4C79);
     padding: 10px 20px;
     border-radius: 5px;
     color: #ffffff;
     font-weight: 700;
 }
+.content {
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.content p{
+    line-height: 1.6;
+    font-size: 14px;
+}
 .second-img {
-    width: 30%;
+    width: 28%;
     
 }
 .second-img img{
     width: 100%;
+}
+.task {
+    height: 500px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.task h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ .images {
+    margin: 0 50px 0 50px;
+} 
+.image1 {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.image2 {
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+}
+.image3 {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+.images img {
+    width: 100%;
+}
+.client {
+    height: 756px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.center {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.center h2 {
+    font-size: 28px;
+    font-weight: 700;
+
+}
+.center h5 {
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.center h6 {
+    font-size: 12px;
+    font-weight: 400;
+    
+}
+.center p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.6;
+    
+}
+button {
+    padding: 2px 149px;
+    background-image: linear-gradient(to right, #EC4F92,#EC4C79);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 211px;
+}
+.center a {
+    text-decoration: none;
+    font-weight: 700;
 }
 
 
